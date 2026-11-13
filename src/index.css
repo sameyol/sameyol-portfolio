@@ -1,0 +1,81 @@
+
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #080d1a;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+} */
+
+
+/* Light theme */
+html[data-theme="light"] body {
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+/* Main section backgrounds */
+html[data-theme="light"] .bg-\[\#080d1a\],
+html[data-theme="light"] .bg-\[\#080d1a\]\/90 {
+  background-color: #f8fafc !important;
+}
+
+html[data-theme="light"] .bg-\[\#0a1020\] {
+  background-color: #f1f5f9 !important;
+}
+
+html[data-theme="light"] .bg-\[\#0d1528\] {
+  background-color: #ffffff !important;
+}
+
+/* Text colors */
+html[data-theme="light"] .text-white {
+  color: #0f172a !important;
+}
+
+html[data-theme="light"] .text-gray-400 {
+  color: #475569 !important;
+}
+
+html[data-theme="light"] .text-gray-300 {
+  color: #334155 !important;
+}
+
+html[data-theme="light"] .text-gray-500 {
+  color: #64748b !important;
+}
+
+/* Borders */
+html[data-theme="light"] .border-white\/10 {
+  border-color: #cbd5e1 !important;
+}
+
+/* Subtle backgrounds */
+html[data-theme="light"] .bg-white\/5 {
+  background-color: #e2e8f0 !important;
+}
