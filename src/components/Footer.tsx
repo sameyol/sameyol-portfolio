@@ -9,7 +9,7 @@ function Footer() {
           {/* Brand */}
           <div className="text-center md:text-left">
             <a href="#home" className="text-2xl font-bold">
-              Sam Eyo<span className="text-blue-400">.</span>
+              Sameyol<span className="text-blue-400">.</span>
             </a>
 
             <p className="mt-2 text-sm text-gray-400">
